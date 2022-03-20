@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.314" tests="12" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="14"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber\target\test-classes;C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber\target\classes;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Madrid"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="14"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin"/>
+    <property name="sun.java.command" value="C:\Users\Pepe Aldana\AppData\Local\Temp\surefire3345511389203306204\surefirebooter8843554183547636639.jar C:\Users\Pepe Aldana\AppData\Local\Temp\surefire3345511389203306204 2022-03-20T13-03-47_948-jvmRun1 surefire3575523081810806134tmp surefire_05177531559948062878tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber\target\test-classes;C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber\target\classes;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-java\7.0.0\cucumber-java-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-core\7.0.0\cucumber-core-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin\7.0.0\cucumber-gherkin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.0.0\cucumber-gherkin-messages-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\messages\17.1.1\messages-17.1.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\tag-expressions\4.0.2\tag-expressions-4.0.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-expressions\13.0.1\cucumber-expressions-13.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\datatable\7.0.0\datatable-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-plugin\7.0.0\cucumber-plugin-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\docstring\7.0.0\docstring-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\html-formatter\17.0.0\html-formatter-17.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\create-meta\6.0.1\create-meta-6.0.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Pepe Aldana\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.0.0\cucumber-junit-platform-engine-7.0.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-engine\1.8.1\junit-platform-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-commons\1.8.1\junit-platform-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite\1.8.1\junit-platform-suite-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-api\1.8.1\junit-platform-suite-api-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.8.1\junit-platform-suite-engine-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.8.1\junit-platform-suite-commons-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.1\junit-platform-launcher-1.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter\5.8.1\junit-jupiter-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.1\junit-jupiter-api-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.1\junit-jupiter-params-5.8.1.jar;C:\Users\Pepe Aldana\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.1\junit-jupiter-engine-5.8.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Pepe Aldana"/>
+    <property name="user.language" value="es"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-07-14"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-14.0.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Pepe Aldana\AppData\Local\Temp\surefire3345511389203306204\surefirebooter8843554183547636639.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="14.0.2+12-46"/>
+    <property name="user.name" value="Pepe Aldana"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Pepe Aldana\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pepe Aldana\AppData\Local\Temp\"/>
+    <property name="java.version" value="14.0.2"/>
+    <property name="user.dir" value="C:\Users\Pepe Aldana\Documents\IngSoftwareAvanzada\BDD\bufferacotadoBDD\hellocucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-14.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.2/bin/server;C:/Program Files/Java/jdk-14.0.2/bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Skype\Phone\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\AutoFirmaJA\AutoFirmaJA;C:\Users\Pepe Aldana\Documents\instantclient_19_11;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Pepe Aldana\Documents\apache-maven-3.8.5\bin;C:\Users\Pepe Aldana\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\System32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="14.0.2+12-46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="58.0"/>
+  </properties>
+  <testcase name="Example #1" classname="Examples" time="0.089">
+    <system-out><![CDATA[
+Scenario Outline: Test if the buffer creted has the same elements as Its capacity has &amp#27;[90m# hellocucumber/buffer.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                                                                &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                              &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                               &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m elements&amp#27;[0m                                                &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Test if the capacity given is negative or zero it throws an exception &amp#27;[90m# hellocucumber/buffer.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                          &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe capacity is < zero&amp#27;[0m                                                   &amp#27;[90m# hellocucumber.StepDefinitions.the_capacity_is_zero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalArgumentException&amp#27;[0m                           &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_argument_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Test if the capacity reduces by one when I remove the head of the buffer &amp#27;[90m# hellocucumber/buffer.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m                                                                     &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                                   &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI remove the Head of the buffer&amp#27;[0m                                                      &amp#27;[90m# hellocucumber.StepDefinitions.i_remove_the_head_of_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m&amp#27;[32m elements minus one&amp#27;[0m                                           &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements_minus_one(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario: Test if adding an element in a full buffer throws an exception &amp#27;[90m# hellocucumber/buffer.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                                                  &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                 &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuffer is full and I add one more element&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.buffer_is_full_and_i_add_one_more_element()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalStateException&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_state_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Test if removing an element in a empty buffer throws an exception &amp#27;[90m# hellocucumber/buffer.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                                                     &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuffer is empty and I remove the Head&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.buffer_is_empty_and_i_remove_the_head()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalStateException&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_state_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.012">
+    <system-out><![CDATA[
+Scenario Outline: Test if the buffer creted has the same elements as Its capacity has &amp#27;[90m# hellocucumber/buffer.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                                                               &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                              &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                               &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m elements&amp#27;[0m                                               &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.006">
+    <system-out><![CDATA[
+Scenario: Test if the capacity given is negative or zero it throws an exception &amp#27;[90m# hellocucumber/buffer.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m-300&amp#27;[0m                                                       &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mThe capacity is < zero&amp#27;[0m                                                   &amp#27;[90m# hellocucumber.StepDefinitions.the_capacity_is_zero()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalArgumentException&amp#27;[0m                           &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_argument_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.009">
+    <system-out><![CDATA[
+Scenario Outline: Test if the capacity reduces by one when I remove the head of the buffer &amp#27;[90m# hellocucumber/buffer.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                                                                    &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                                   &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI remove the Head of the buffer&amp#27;[0m                                                      &amp#27;[90m# hellocucumber.StepDefinitions.i_remove_the_head_of_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m elements minus one&amp#27;[0m                                          &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements_minus_one(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Test if adding an element in a full buffer throws an exception &amp#27;[90m# hellocucumber/buffer.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m                                                &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                 &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuffer is full and I add one more element&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.buffer_is_full_and_i_add_one_more_element()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalStateException&amp#27;[0m                       &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_state_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario: Test if removing an element in a empty buffer throws an exception &amp#27;[90m# hellocucumber/buffer.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m                                                   &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mBuffer is empty and I remove the Head&amp#27;[0m                                 &amp#27;[90m# hellocucumber.StepDefinitions.buffer_is_empty_and_i_remove_the_head()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mtest should thrown an IllegalStateException&amp#27;[0m                          &amp#27;[90m# hellocucumber.StepDefinitions.test_should_thrown_an_illegal_state_exception()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Test if the buffer creted has the same elements as Its capacity has &amp#27;[90m# hellocucumber/buffer.feature:14&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m                                                             &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                              &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                               &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m&amp#27;[32m elements&amp#27;[0m                                             &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.008">
+    <system-out><![CDATA[
+Scenario Outline: Test if the capacity reduces by one when I remove the head of the buffer &amp#27;[90m# hellocucumber/buffer.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mIts capacity &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m                                                                  &amp#27;[90m# hellocucumber.StepDefinitions.its_capacity(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI create a Buffer&amp#27;[0m                                                                   &amp#27;[90m# hellocucumber.StepDefinitions.i_create_a_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI fill the Buffer&amp#27;[0m                                                                    &amp#27;[90m# hellocucumber.StepDefinitions.i_fill_the_buffer()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI remove the Head of the buffer&amp#27;[0m                                                      &amp#27;[90m# hellocucumber.StepDefinitions.i_remove_the_head_of_the_buffer()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe Buffer will have &amp#27;[0m&amp#27;[32m&amp#27;[1m2000&amp#27;[0m&amp#27;[32m elements minus one&amp#27;[0m                                        &amp#27;[90m# hellocucumber.StepDefinitions.the_buffer_will_have_elements_minus_one(java.lang.Integer)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
